@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apps</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,user-scalable=yes,maximum-scale=2,minimum-scale=0.5"
+    />
+    <style type="text/css">
+      :root {
+        color-scheme: light dark;
+        --secondary-color: #eee;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --secondary-color: #222;
+        }
+      }
+
+      .page-title {
+        text-align: center;
+        margin: 20px 10px 50px 10px;
+      }
+      .footer a:link,
+      .footer a:visited {
+        color: #999;
+      }
+      .footer {
+        padding: 20px;
+        font-size: 12px;
+        text-align: center;
+        margin: 50px 10vw;
+        border-top: 1px dotted #999;
+      }
+      .main-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .app {
+        width: 400px;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        column-gap: 10px;
+        margin: 20px;
+        cursor: pointer;
+        background-color: var(--secondary-color);
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      .app h1 {
+        font-size: 24px;
+      }
+
+      .app .icon {
+        width: 150px;
+        height: 150px;
+      }
+      .app .icon img {
+        width: 150px;
+        border-radius: 10px;
+      }
+      @media only screen and (max-width: 600px) {
+        .app {
+          width: calc(100vw - 20px);
+          margin: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="page-title">APPs</h1>
+
+    <div class="main-content">
+      <div class="app" onclick="window.location='clock/';">
+        <div class="icon"><img src="imgs/clock.png" /></div>
+        <div class="desc">
+          <h1>Large Font Clock</h1>
+          <p>A large font clock app in full screen mode</p>
+        </div>
+      </div>
+
+      <div class="app" onclick="window.location='inventory/';">
+        <div class="icon"><img src="imgs/inventory.png" /></div>
+        <div class="desc">
+          <h1>Personal Inventory Management</h1>
+          <p>Help knowing how many things that you have</p>
+        </div>
+      </div>
+
+       <div class="app" onclick="window.location='pick-a-choice/';">
+        <div class="icon"><img src="imgs/dice-wheel.png" /></div>
+        <div class="desc">
+          <h1>Pick a Choice</h1>
+          <p>Make random choice from many options</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+    </div>
+  </body>
+</html>
+
