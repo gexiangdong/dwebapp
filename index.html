@@ -40,6 +40,16 @@
         text-align: center;
         margin: 20px 10px 50px 10px;
       }
+      .logo::before {
+        display: inline-block;
+        content: " ";
+        width: 32px;
+        height: 32px;
+        border-radius: 5px;
+        background-image: url("imgs/log-32.png");
+        background-size: contain;
+        margin: 0 auto;
+      }
       .footer a:link,
       .footer a:visited {
         color: #999;
@@ -91,7 +101,7 @@
     </style>
   </head>
   <body>
-    <h1 class="page-title">WEBAPPs</h1>
+    <h1 class="page-title"><span class="logo">WEBAPP</span></h1>
 
     <div class="main-content">
       <div class="app" onclick="window.location='bid-day/';">
