@@ -1,0 +1,1 @@
+const a={home:"This page is home page",about:"This page is about page"},e={home:"Home",about:"About"},s={language:"Languages"},o={pages:a,navigations:e,labels:s};export{o as default,s as labels,e as navigations,a as pages};

@@ -1,0 +1,1 @@
+import{e as s,c as n,b as a,t,o}from"./index-BUjCA7i-.js";const l={class:"name"},c={class:"days-left"},m={__name:"View",setup(i){const e=s(null);return e.value={name:"national day",time:new Date(2024,10,1),daysLeft:2,id:223},console.log("view"),(d,r)=>(o(),n("div",null,[a("div",l,t(e.value.name),1),a("div",c,t(e.value.daysLeft),1)]))}};export{m as default};

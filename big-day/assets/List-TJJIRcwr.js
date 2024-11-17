@@ -1,0 +1,1 @@
+import{c as t,a as o,w as s,F as a,b as r,r as n,o as c,d as l}from"./index-BUjCA7i-.js";const _=r("div",null,"list",-1),m={__name:"List",setup(i){return console.log("  script setup"),(p,u)=>{const e=n("router-link");return c(),t(a,null,[_,o(e,{to:"/view/01"},{default:s(()=>[l("view 01")]),_:1})],64)}}};export{m as default};
