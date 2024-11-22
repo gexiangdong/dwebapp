@@ -81,23 +81,32 @@ define(['./workbox-99d8380f'], (function (workbox) { 'use strict';
    * See https://goo.gl/S9QRab
    */
   workbox.precacheAndRoute([{
-    "url": "assets/index-6ph6wfIH.js",
+    "url": "assets/index-BGww7_P9.js",
     "revision": null
   }, {
     "url": "assets/index-BItjQWmg.css",
     "revision": null
   }, {
     "url": "index.html",
-    "revision": "018164be63305af0459c81a595b3437c"
+    "revision": "7d4e7756973aa980b8f0234f6a2c882b"
   }, {
     "url": "registerSW.js",
     "revision": "27f2e8cb2afbdbd5f97419b2a5135cbd"
   }, {
     "url": "favicon.ico",
-    "revision": "1ba2ae710d927f13d483fd5d1e548c9b"
+    "revision": "d0691f8345ab42db092cf3d9e3ace10d"
+  }, {
+    "url": "icons/clock-144.png",
+    "revision": "32446d7aa956279d4c1b7fba2c3c2088"
+  }, {
+    "url": "icons/clock-192.png",
+    "revision": "b99003960cee552e540c7f79a1e5c18f"
+  }, {
+    "url": "icons/clock-512.png",
+    "revision": "d7b85823e5c4bb7dd04469eeb0be5497"
   }, {
     "url": "manifest.webmanifest",
-    "revision": "1b6061d88e63ca1857ccd9aeaf928f02"
+    "revision": "2fdcbe52470cede81a6e326a0f3841a3"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
